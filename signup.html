@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="design2.css"> 
+ </head>
+ <body>
+ <form action="main.php" method="post">
+ <div class="information">
+ <p>Please fill in this form to create an account.</p>
+    <hr>
+	Username: <input type="text" placeholder="Enter Name" name="name" required> 
+    Email: <input type="text" placeholder="Enter Email" name="email" required>
+	Password: <input type="password" placeholder="Enter Password" name="psw" required>
+    Repeat Password: <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+	<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+	<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+	<div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+  </form>
+  </body>
+  </html>
